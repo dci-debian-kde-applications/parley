@@ -4,7 +4,9 @@ Priority: extra
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.launchpad.net>
 XSBC-Original-Maintainer: Michal Zajac <quintasan@kubuntu.org>
 Build-Depends: debhelper (>= 7.0.50~), cmake, pkg-kde-tools (>= 0.12),
- kdelibs5-dev (>= 4:4.6.90), kde-sc-dev-latest (>= 4:4.6.90)
+ kdelibs5-dev (>= 4:4.6.90), kde-sc-dev-latest (>= 4:4.6.90),
+ libkdeedu-dev (>= 4:4.6.90), libattica-dev, libxml2-dev, libx11-dev,
+ libxrender-dev
 Standards-Version: 3.9.2
 Homepage: https://projects.kde.org/projects/kde/kdeedu/parley
 Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kiten
