@@ -1,4 +1,4 @@
-parley (4.6.90+repack-0ubuntu1) UNRELEASED; urgency=low
+parley (4:4.6.90+repack-0ubuntu1) UNRELEASED; urgency=low
 
   * Initial release (parley moved out of kdeedu)
   * Repacked tarball to include COPYING
