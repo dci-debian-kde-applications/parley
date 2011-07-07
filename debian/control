@@ -15,7 +15,7 @@ Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/ki
 Package: parley
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libwww-perl,
- parley-data (>= ${source:Version}), kdeedu-kvtml-data (= ${source:Version})
+ parley-data (>= ${source:Version}), kdeedu-kvtml-data
 Description: vocabulary trainer for KDE
  Parley is a utility to help train vocabulary when learning a foreign language.
  It is intended as a replacement for flash cards.
