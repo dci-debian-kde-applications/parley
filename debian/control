@@ -9,8 +9,8 @@ Build-Depends: debhelper (>= 7.0.50~), cmake, pkg-kde-tools (>= 0.12),
  libxrender-dev
 Standards-Version: 3.9.2
 Homepage: https://projects.kde.org/projects/kde/kdeedu/parley
-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kiten
-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kiten
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/parley
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/parley
 
 Package: parley
 Architecture: any
