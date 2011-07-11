@@ -5,16 +5,16 @@ Source: https://projects.kde.org/projects/kde/kdeedu/parley
 Files: *
 Copyright: 2007-2010 Frederik Gladhorn <frederik.gladhorn@kdemail.net>
            2008 Avgoustinos Kadis <avgoustinos.kadis@kdemail.net>
-	   2008 Daniel Laidig <d.laidig@gmx.de>
-	   2004-2007 Peter Hedlund <peter.hedlund@kdemail.net>
-	   2001-2002 The KDE team
-	   1999-2001 Ewald Arnold <kvoctrain@ewald-arnold.de>
+           2008 Daniel Laidig <d.laidig@gmx.de>
+           2004-2007 Peter Hedlund <peter.hedlund@kdemail.net>
+           2001-2002 The KDE team
+           1999-2001 Ewald Arnold <kvoctrain@ewald-arnold.de>
 License: GPL-2.0+
 
 Files: doc/*
 Copyright: 2010 Frederik Gladhorn <frederik.gladhorn@kdemail.net>
            2010 Daniel Laidig <d.laidig@gmx.de>
-	   2010 Sabine Eller <s.eller@voxhumanitatis.org>
+           2010 Sabine Eller <s.eller@voxhumanitatis.org>
 License: GFDL-1.2
 
 Files: debian/*
