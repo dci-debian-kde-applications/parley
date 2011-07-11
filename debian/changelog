@@ -1,6 +1,6 @@
 parley (4:4.6.90+repack-0ubuntu1) UNRELEASED; urgency=low
 
   * Initial release (parley moved out of kdeedu)
-  * Repacked tarball to include COPYING
+  * Repacked tarball to include a copy of GPL-2 and GFDL-1.2
 
- -- Michał Zając <quintasan@kubuntu.org>  Tue, 05 Jul 2011 22:29:08 +0200
+ -- Michał Zając <quintasan@kubuntu.org>  Mon, 11 Jul 2011 10:54:49 +0200
