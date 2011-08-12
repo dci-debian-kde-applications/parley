@@ -1,3 +1,9 @@
+parley (4:4.7.0-0ubuntu2) UNRELEASED; urgency=low
+
+  * Recommend krosspython and python-kde4 to make plugins work.
+
+ -- Felix Geyer <debfx-pkg@fobos.de>  Fri, 12 Aug 2011 12:29:54 +0200
+
 parley (4:4.7.0-0ubuntu1) oneiric; urgency=low
 
   * New upstream release 
