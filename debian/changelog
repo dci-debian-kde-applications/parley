@@ -1,3 +1,9 @@
+parley (4:4.7.1-0ubuntu1) UNRELEASED; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Kolberg <bulldog98@kubuntu-de.org>  Sun, 04 Sep 2011 18:21:46 +0200
+
 parley (4:4.7.0-0ubuntu2) UNRELEASED; urgency=low
 
   * Recommend krosspython and python-kde4 to make plugins work.
