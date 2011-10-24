@@ -1,0 +1,29 @@
+Source: parley
+Section: kde
+Priority: extra
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.launchpad.net>
+XSBC-Original-Maintainer: Michal Zajac <quintasan@kubuntu.org>
+Build-Depends: debhelper (>= 7.0.50~), cmake, pkg-kde-tools (>= 0.12),
+ kdelibs5-dev, kde-sc-dev-latest (>= 4:4.7.1),
+ libkdeedu-dev, libattica-dev, libxml2-dev, libx11-dev,
+ libxrender-dev
+Standards-Version: 3.9.2
+Homepage: https://projects.kde.org/projects/kde/kdeedu/parley
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/parley
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/parley
+
+Package: parley
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libwww-perl,
+ parley-data (>= ${source:Version}), kdeedu-kvtml-data
+Recommends: krosspython, python-kde4
+Description: vocabulary trainer for KDE
+ Parley is a utility to help train vocabulary when learning a foreign language.
+ It is intended as a replacement for flash cards.
+
+Package: parley-data
+Architecture: all
+Depends: ${misc:Depends}
+Description: data files for the Parley vocabulary trainer
+ This package contains architecture-independent data files for the Parley
+ vocabulary trainer.
