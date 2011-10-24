@@ -20,7 +20,7 @@ Vcs-Browser: http://anonscm.debian.org/git/pkg-kde/kde-sc/parley.git
 
 Package: parley
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libwww-perl,
+Depends: ${shlibs:Depends}, ${misc:Depends},
  parley-data (>= ${source:Version}), kdeedu-kvtml-data
 Recommends: krosspython, python-kde4
 Description: vocabulary trainer for KDE
