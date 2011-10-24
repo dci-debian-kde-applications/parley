@@ -1,6 +1,6 @@
 Source: parley
 Section: kde
-Priority: extra
+Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Felix Geyer <debfx-pkg@fobos.de>
 Build-Depends: kde-sc-dev-latest (>= 4:4.7.1),
