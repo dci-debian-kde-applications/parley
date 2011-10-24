@@ -1,31 +1,6 @@
-parley (4:4.7.1-0ubuntu2) oneiric; urgency=low
+parley (4:4.7.1-1) UNRELEASED; urgency=low
 
-  * No-change rebuild so translations aren't stripped from .desktop
-    files anymore.
+  [ Felix Geyer ]
+  * Initial release, based on the Kubuntu package.
 
- -- Felix Geyer <debfx-pkg@fobos.de>  Fri, 16 Sep 2011 01:17:36 +0200
-
-parley (4:4.7.1-0ubuntu1) oneiric; urgency=low
-
-  * New upstream release
-
- -- Jonathan Kolberg <bulldog98@kubuntu-de.org>  Thu, 08 Sep 2011 21:40:11 +0200
-
-parley (4:4.7.0-0ubuntu2) UNRELEASED; urgency=low
-
-  * Recommend krosspython and python-kde4 to make plugins work.
-
- -- Felix Geyer <debfx-pkg@fobos.de>  Fri, 12 Aug 2011 12:29:54 +0200
-
-parley (4:4.7.0-0ubuntu1) oneiric; urgency=low
-
-  * New upstream release 
-
- -- Philip Muškovac <yofel@kubuntu.org>  Sun, 24 Jul 2011 23:51:39 +0200
-
-parley (4:4.6.90+repack-0ubuntu1) oneiric; urgency=low
-
-  * Initial release (parley moved out of kdeedu)
-  * Repacked tarball to include a copy of GPL-2 and GFDL-1.2
-
- -- Michał Zając <quintasan@kubuntu.org>  Mon, 11 Jul 2011 11:50:47 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 24 Oct 2011 19:54:34 +0200
