@@ -35,6 +35,7 @@ License: Expat
 
 Files: debian/*
 Copyright: 2011 Michał Zając <quintasan@kubuntu.org>
+Copyright: 2011 Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 License: GPL-2+
 
 License: GPL-2
