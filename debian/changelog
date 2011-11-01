@@ -1,8 +1,8 @@
-parley (4:4.7.2-0ubuntu1) UNRELEASED; urgency=low
+parley (4:4.7.3-0ubuntu1) UNRELEASED; urgency=low
 
   * New upstream release
 
- -- Jonathan Kolberg <bulldog98@kubuntu-de.org>  Tue, 04 Oct 2011 20:43:36 +0200
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 01 Nov 2011 15:32:57 +0100
 
 parley (4:4.7.1-0ubuntu2) oneiric; urgency=low
 
