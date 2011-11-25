@@ -1,25 +1,36 @@
 Source: parley
 Section: kde
-Priority: extra
+Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
-XSBC-Original-Maintainer: Michal Zajac <quintasan@kubuntu.org>
-Build-Depends: debhelper (>= 7.0.50~), cmake, pkg-kde-tools (>= 0.12),
- kdelibs5-dev, kde-sc-dev-latest (>= 4:4.7.3),
- libkdeedu-dev, libattica-dev, libxml2-dev, libx11-dev,
+XSBC-Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Eshat Cakar <info@eshat.de>
+Build-Depends: kde-sc-dev-latest (>= 4:4.7.2),
+ cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
+ kdelibs5-dev,
+ libkdeedu-dev,
+ libattica-dev,
+ libxml2-dev,
+ libxslt-dev,
+ libx11-dev,
  libxrender-dev
 Standards-Version: 3.9.2
 Homepage: https://projects.kde.org/projects/kde/kdeedu/parley
-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/parley
-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/parley
+X-Debian-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/parley.git
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/parley/ubuntu
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/parley/ubuntu
+X-Debian-Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/parley.git
 
 Package: parley
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libwww-perl,
+Depends: ${shlibs:Depends}, ${misc:Depends},
  parley-data (>= ${source:Version}), kdeedu-kvtml-data
 Recommends: krosspython, python-kde4
+Suggests: khelpcenter4
 Description: vocabulary trainer for KDE
  Parley is a utility to help train vocabulary when learning a foreign language.
  It is intended as a replacement for flash cards.
+ .
+ This package is part of the KDE education module.
 
 Package: parley-data
 Architecture: all
@@ -27,3 +38,5 @@ Depends: ${misc:Depends}
 Description: data files for the Parley vocabulary trainer
  This package contains architecture-independent data files for the Parley
  vocabulary trainer.
+ .
+ This package is part of the KDE education module.
