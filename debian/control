@@ -16,8 +16,8 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.7.95),
 Standards-Version: 3.9.2
 Homepage: https://projects.kde.org/projects/kde/kdeedu/parley
 X-Debian-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/parley.git
-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/parley/ubuntu
-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/parley/ubuntu
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/parley
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/parley
 X-Debian-Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/parley.git
 
 Package: parley
