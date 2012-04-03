@@ -1,3 +1,9 @@
+parley (4:4.8.2-0ubuntu1~ppa1) precise; urgency=low
+
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 03 Apr 2012 08:51:48 +0000
+
 parley (4:4.8.1-0ubuntu1) precise; urgency=low
 
   * New upstream release 
