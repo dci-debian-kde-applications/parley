@@ -1,3 +1,11 @@
+parley (4:4.8.3-0ubuntu0.1) UNRELEASED; urgency=low
+
+  * New upstream release
+    - Add libssl-dev to build-dep
+    - Bump Standard-Version to 3.9.3 (no change)
+
+ -- Jonathan Kolberg <bulldog98@kubuntu.org>  Thu, 03 May 2012 10:56:16 +0200
+
 parley (4:4.8.2-0ubuntu1) precise; urgency=low
 
   * new upstream release
