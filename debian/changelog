@@ -1,3 +1,9 @@
+parley (4:4.8.80-0ubuntu1~ppa1) quantal; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 06 Jun 2012 16:08:06 +0100
+
 parley (4:4.8.3-0ubuntu1) quantal; urgency=low
 
   * New upstream release
