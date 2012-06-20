@@ -1,3 +1,9 @@
+parley (4:4.8.4-1) unstable; urgency=low
+
+  * New upstream
+
+ -- Sune Vuorela <sune@debian.org>  Wed, 20 Jun 2012 10:07:35 +0200
+
 parley (4:4.7.4-2) unstable; urgency=low
 
   * Team upload. Upload to unstable.

@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Eshat Cakar <info@eshat.de>,
  José Manuel Santamaría Lema <panfaust@gmail.com>
-Build-Depends: kde-sc-dev-latest (>= 4:4.7.4),
+Build-Depends: kde-sc-dev-latest (>= 4:4.8.4),
  cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
  kdelibs5-dev,
  libkdeedu-dev,
@@ -24,7 +24,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends},
  parley-data (>= ${source:Version}), kdeedu-kvtml-data
 Recommends: krosspython, python-kde4
 Suggests: khelpcenter4
-Description: vocabulary trainer for KDE
+Description: vocabulary trainer
  Parley is a utility to help train vocabulary when learning a foreign language.
  It is intended as a replacement for flash cards.
  .
