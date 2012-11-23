@@ -1,7 +1,7 @@
 parley (4:4.9.80-0ubuntu1) UNRELEASED; urgency=low
 
   * New upstream beta release
-  * New upstream beta release
+  * Add build-dep on pkg-config, makes cmake output cleaner
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 19 Nov 2012 16:22:43 +0000
 
