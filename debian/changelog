@@ -1,4 +1,4 @@
-parley (4:4.9.80-0ubuntu1) UNRELEASED; urgency=low
+parley (4:4.9.80-0ubuntu1) raring; urgency=low
 
   * New upstream beta release
   * Add build-dep on pkg-config, makes cmake output cleaner
