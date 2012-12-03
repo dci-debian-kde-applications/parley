@@ -1,3 +1,9 @@
+parley (4:4.9.90-0ubuntu1) UNRELEASED; urgency=low
+
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 03 Dec 2012 13:22:30 +0000
+
 parley (4:4.9.80-0ubuntu1) raring; urgency=low
 
   * New upstream beta release

@@ -6,8 +6,8 @@ XSBC-Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.
 Uploaders: Eshat Cakar <info@eshat.de>
 Build-Depends: 
  cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
- kdelibs5-dev (>= 4:4.9.80),
- libkdeedu-dev (>= 4:4.9.80),
+ kdelibs5-dev (>= 4:4.9.90),
+ libkdeedu-dev (>= 4:4.9.90),
  libattica-dev,
  libxml2-dev,
  libxslt-dev,
