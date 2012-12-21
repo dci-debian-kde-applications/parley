@@ -1,4 +1,4 @@
-parley (4:4.9.95-0ubuntu1) UNRELEASED; urgency=low
+parley (4:4.9.95-0ubuntu1) raring; urgency=low
 
   * New upstream RC release
 
@@ -105,7 +105,7 @@ parley (4:4.7.3-0ubuntu1) precise; urgency=low
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 23 Nov 2011 23:47:07 +0000
 
-parley (4:4.7.2-0r0) UNRELEASED; urgency=low
+parley (4:4.7.2-0r0) raring; urgency=low
 
   [ Felix Geyer ]
   * Initial release, based on the Kubuntu package.
@@ -125,7 +125,7 @@ parley (4:4.7.1-0ubuntu1) oneiric; urgency=low
 
  -- Jonathan Kolberg <bulldog98@kubuntu-de.org>  Thu, 08 Sep 2011 21:40:11 +0200
 
-parley (4:4.7.0-0ubuntu2) UNRELEASED; urgency=low
+parley (4:4.7.0-0ubuntu2) raring; urgency=low
 
   * Recommend krosspython and python-kde4 to make plugins work.
 
