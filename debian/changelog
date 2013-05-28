@@ -1,12 +1,13 @@
-parley (4:4.10.2-2) UNRELEASED; urgency=low
+parley (4:4.10.3-1) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * Add the pkg-config build dependency.
   
   [ Maximiliano Curia ]
   * Add watch file.
+  * New upstream release.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 13 Apr 2013 00:11:26 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 28 May 2013 13:48:38 +0200
 
 parley (4:4.10.2-1) experimental; urgency=low
 
