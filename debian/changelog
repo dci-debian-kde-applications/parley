@@ -1,9 +1,9 @@
-parley (4:4.11.3-1) UNRELEASED; urgency=low
+parley (4:4.11.3-1) unstable; urgency=low
 
   * New upstream release.
   * Update build dependencies.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 08 Nov 2013 14:19:22 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 08 Nov 2013 15:23:46 +0100
 
 parley (4:4.11.2-1) experimental; urgency=low
 
