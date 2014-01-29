@@ -14,7 +14,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.11),
  libxslt-dev,
  libx11-dev,
  libxrender-dev
-Standards-Version: 3.9.4
+Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/kde/kdeedu/parley
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/parley.git
 Vcs-Browser: http://anonscm.debian.org/git/pkg-kde/kde-sc/parley.git
