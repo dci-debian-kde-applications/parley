@@ -2,18 +2,19 @@ Source: parley
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Eshat Cakar <info@eshat.de>,
-           Maximiliano Curia <maxy@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.11),
- cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12),
- kdelibs5-dev (>= 4:4.11),
- libkdeedu-dev (>= 4:4.11),
- pkg-config,
- libattica-dev,
- libxml2-dev,
- libxslt-dev,
- libx11-dev,
- libxrender-dev
+Uploaders: Eshat Cakar <info@eshat.de>, Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.11),
+               kdelibs5-dev (>= 4:4.11),
+               libattica-dev,
+               libkdeedu-dev (>= 4:4.11),
+               libx11-dev,
+               libxml2-dev,
+               libxrender-dev,
+               libxslt-dev,
+               pkg-config,
+               pkg-kde-tools (>= 0.12)
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/kde/kdeedu/parley
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/parley.git
@@ -21,8 +22,10 @@ Vcs-Browser: http://anonscm.debian.org/git/pkg-kde/kde-sc/parley.git
 
 Package: parley
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends},
- parley-data (>= ${source:Version}), kdeedu-kvtml-data
+Depends: kdeedu-kvtml-data,
+         parley-data (>= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Recommends: krosspython, python-kde4
 Suggests: khelpcenter4
 Description: vocabulary trainer
