@@ -1,3 +1,104 @@
+parley (4:4.13.2-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+  * Merge with Debian, no changes
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 17 Jun 2014 10:42:04 +0100
+
+parley (4:4.13.1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 23 May 2014 12:39:10 +0200
+
+parley (4:4.12.4-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 28 Apr 2014 12:24:56 +0200
+
+parley (4:4.12.3-1) experimental; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Mar 2014 00:05:27 +0100
+
+parley (4:4.12.2-1) experimental; urgency=low
+
+  * Bump Standards-Version to 3.9.5, no changes needed.
+  * New upstream release.
+  * Bump kde-sc-dev-latest build dependency.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Feb 2014 11:32:11 +0100
+
+parley (4:4.11.3-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update build dependencies.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 08 Nov 2013 15:23:46 +0100
+
+parley (4:4.11.2-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 07 Oct 2013 16:52:50 +0200
+
+parley (4:4.10.5-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 12 Jul 2013 16:43:02 +0200
+
+parley (4:4.10.4-1) experimental; urgency=low
+
+  * New upstream release.
+
+  [ Pino Toscano ]
+  * Add the pkg-config build dependency.
+  
+  [ Maximiliano Curia ]
+  * Add watch file.
+  * Bump debhelper build-dep and compat to 9.
+  * Bump Standards-Version to 3.9.4.
+  * Add myself to uploaders.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 14 Jun 2013 14:31:02 +0200
+
+parley (4:4.10.2-1) experimental; urgency=low
+
+  * New upstream release.
+
+  [ Pino Toscano ]
+  * Bump the kde-sc-dev-latest, kdelibs5-dev and libkdeedu-dev build
+    dependencies to 4.10.
+  * Update Uploaders.
+  * Update copyright.
+
+ -- Sune Vuorela <sune@debian.org>  Fri, 12 Apr 2013 20:21:32 +0000
+
+parley (4:4.8.4-1) unstable; urgency=low
+
+  * New upstream
+
+ -- Sune Vuorela <sune@debian.org>  Wed, 20 Jun 2012 10:07:35 +0200
+
+parley (4:4.7.4-2) unstable; urgency=low
+
+  * Team upload. Upload to unstable.
+
+ -- Pino Toscano <pino@debian.org>  Wed, 07 Mar 2012 17:26:53 +0100
+
+parley (4:4.7.4-1) experimental; urgency=low
+
+  * New upstream release. 
+  
+  [ José Manuel Santamaría Lema ]
+  * Bump kde-sc-dev-latest build dependency to 4:4.7.4.
+  * Add myself to Uploaders.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 18 Dec 2011 01:37:44 +0100
+
 parley (4:4.13.0-0ubuntu1) trusty; urgency=medium
 
   * New upstream KDE Software Compilation release

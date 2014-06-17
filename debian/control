@@ -3,17 +3,20 @@ Section: kde
 Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Eshat Cakar <info@eshat.de>,
-Build-Depends: kde-sc-dev-latest (>= 4:4.10),
- cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
- kdelibs5-dev (>= 4:4.13.0),
- libkdeedu-dev (>= 4:4.13.0),
- libattica-dev,
- libxml2-dev,
- libxslt-dev,
- libx11-dev,
- libxrender-dev
-Standards-Version: 3.9.2
+Uploaders: Eshat Cakar <info@eshat.de>, Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.12),
+               kdelibs5-dev (>= 4:4.11),
+               libattica-dev,
+               libkdeedu-dev (>= 4:4.11),
+               libx11-dev,
+               libxml2-dev,
+               libxrender-dev,
+               libxslt-dev,
+               pkg-config,
+               pkg-kde-tools (>= 0.12)
+Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/kde/kdeedu/parley
 X-Debian-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/parley.git
 Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/parley
@@ -22,8 +25,10 @@ X-Debian-Vcs-Browser: http://anonscm.debian.org/git/pkg-kde/kde-sc/parley.git
 
 Package: parley
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends},
- parley-data (>= ${source:Version}), kdeedu-kvtml-data
+Depends: kdeedu-kvtml-data,
+         parley-data (>= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Recommends: krosspython, python-kde4
 Suggests: khelpcenter4
 Description: vocabulary trainer
