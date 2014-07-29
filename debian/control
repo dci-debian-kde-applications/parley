@@ -1,7 +1,8 @@
 Source: parley
 Section: kde
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Maintainer: Debian/Ubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+X-Ubuntu-Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Uploaders: Eshat Cakar <info@eshat.de>, Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
@@ -19,6 +20,8 @@ Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/kde/kdeedu/parley
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/parley.git
 Vcs-Browser: http://anonscm.debian.org/git/pkg-kde/kde-sc/parley.git
+X-Ubuntu-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/parley
+X-Ubuntu-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/parley
 
 Package: parley
 Architecture: any
