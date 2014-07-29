@@ -1,3 +1,10 @@
 #!/usr/bin/make -f
 
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
+
+override_dh_auto_build:
+	$(overridden_command)
+	# Generate icons
+	while read src dest args; do \
+	    convert $$args $(CURDIR)/$$src $(CURDIR)/$$dest; \
+	done <debian/icon-list
