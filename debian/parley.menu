@@ -4,4 +4,4 @@
 	hints="KDE,Education,Trainer"\
 	title="Parley"\
 	icon32x32="/usr/share/pixmaps/parley.xpm"\
-	command="/usr/games/parley"
+	command="/usr/bin/parley"
