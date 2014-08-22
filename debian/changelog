@@ -3,6 +3,7 @@ parley (4:4.14.0-1) unstable; urgency=medium
   * Fix menu entry. (Closes: #757340)
   * New upstream release.
   * Update install file.
+  * Update build dependencies.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 22 Aug 2014 05:44:31 +0200
 
