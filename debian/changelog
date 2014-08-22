@@ -5,7 +5,7 @@ parley (4:4.14.0-1) unstable; urgency=medium
   * Update install file.
   * Update build dependencies.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 22 Aug 2014 05:44:31 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 22 Aug 2014 21:19:28 +0200
 
 parley (4:4.13.3-1) unstable; urgency=medium
 
