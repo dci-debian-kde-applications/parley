@@ -8,3 +8,6 @@ override_dh_auto_build:
 	while read src dest args; do \
 	    convert $$args $(CURDIR)/$$src $(CURDIR)/$$dest; \
 	done <debian/icon-list
+
+override_dh_auto_test:
+	# disable build time dh_auto_test
