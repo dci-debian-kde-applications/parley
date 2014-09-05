@@ -1,3 +1,9 @@
+parley (4:4.14.0-2) UNRELEASED; urgency=medium
+
+  * 
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 05 Sep 2014 09:51:57 +0200
+
 parley (4:4.14.0-1) unstable; urgency=medium
 
   * Fix menu entry. (Closes: #757340)
