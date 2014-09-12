@@ -1,3 +1,9 @@
+parley (4:4.14.1-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (4.14.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 12 Sep 2014 20:26:45 +0200
+
 parley (4:4.14.0-2) unstable; urgency=medium
 
   * Disable build time auto tests. (Closes: #759963)
