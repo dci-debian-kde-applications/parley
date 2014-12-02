@@ -7,21 +7,21 @@ Uploaders: Eshat Cakar <info@eshat.de>, Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
                imagemagick,
-               pkg-kde-tools (>= 0.12),
                kdoctools-dev,
-               libkf5coreaddons-dev,
-               libkf5sonnet-dev,
-               libkf5newstuff-dev,
-               libkf5config-dev,
-               libkf5crash-dev,
-               libkf5i18n-dev,
                kio-dev,
-               libqt5svg5-dev,
-               qtmultimedia5-dev,
-               libkf5khtml-dev,
-               libkf5kcmutils-dev,
                kross-dev,
                libkeduvocdocument-dev,
+               libkf5config-dev,
+               libkf5coreaddons-dev,
+               libkf5crash-dev,
+               libkf5i18n-dev,
+               libkf5kcmutils-dev,
+               libkf5khtml-dev,
+               libkf5newstuff-dev,
+               libkf5sonnet-dev,
+               libqt5svg5-dev,
+               pkg-kde-tools (>= 0.12),
+               qtmultimedia5-dev
 Standards-Version: 3.9.5
 XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/kde/kdeedu/parley
@@ -33,8 +33,8 @@ X-Ubuntu-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packagin
 Package: parley
 Architecture: any
 Depends: kdeedu-kvtml-data,
+         kross,
          parley-data (>= ${source:Version}),
-	 kross,
          ${misc:Depends},
          ${shlibs:Depends}
 Recommends: krosspython, python-kde4
