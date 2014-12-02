@@ -1,3 +1,11 @@
+parley (4:14.11.97-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream RC release
+  * Update build-deps for KF5 and switch to qt-kde-team/3 build scripts
+  * remove xpm icon generation, it's unused and breaks compile
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 01 Dec 2014 18:03:52 +0100
+
 parley (4:4.14.2-1) unstable; urgency=medium
 
   * New upstream release (4.14.2).
@@ -91,7 +99,7 @@ parley (4:4.10.4-1) experimental; urgency=low
 
   [ Pino Toscano ]
   * Add the pkg-config build dependency.
-
+  
   [ Maximiliano Curia ]
   * Add watch file.
   * Bump debhelper build-dep and compat to 9.
@@ -126,8 +134,8 @@ parley (4:4.7.4-2) unstable; urgency=low
 
 parley (4:4.7.4-1) experimental; urgency=low
 
-  * New upstream release.
-
+  * New upstream release. 
+  
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.7.4.
   * Add myself to Uploaders.
@@ -378,7 +386,7 @@ parley (4:4.8.2-0ubuntu1) precise; urgency=low
 
 parley (4:4.8.1-0ubuntu1) precise; urgency=low
 
-  * New upstream release
+  * New upstream release 
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sun, 04 Mar 2012 21:04:47 +0100
 
@@ -414,8 +422,8 @@ parley (4:4.7.4-2) unstable; urgency=low
 
 parley (4:4.7.4-1) experimental; urgency=low
 
-  * New upstream release.
-
+  * New upstream release. 
+  
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.7.4.
   * Add myself to Uploaders.
@@ -464,7 +472,7 @@ parley (4:4.7.0-0ubuntu2) raring; urgency=low
 
 parley (4:4.7.0-0ubuntu1) oneiric; urgency=low
 
-  * New upstream release
+  * New upstream release 
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sun, 24 Jul 2011 23:51:39 +0200
 
@@ -474,3 +482,4 @@ parley (4:4.6.90+repack-0ubuntu1) oneiric; urgency=low
   * Repacked tarball to include a copy of GPL-2 and GFDL-1.2
 
  -- Michał Zając <quintasan@kubuntu.org>  Mon, 11 Jul 2011 11:50:47 +0200
+

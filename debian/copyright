@@ -35,8 +35,7 @@ Copyright: 2006-2009 Bob Ippolito <bob@redivi.com>
 License: Expat
 
 Files: debian/*
-Copyright: 2011 Michał Zając <quintasan@kubuntu.org>
-Copyright: 2011 Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Copyright: 2011 Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 License: GPL-2+
 
 License: GPL-2

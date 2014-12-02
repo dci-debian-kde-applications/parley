@@ -1,38 +1,44 @@
 Source: parley
 Section: kde
 Priority: optional
-Maintainer: Debian/Ubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Maintainer: Debian/Kubuntu/Ubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 X-Ubuntu-Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Uploaders: Eshat Cakar <info@eshat.de>, Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
                imagemagick,
-               kde-sc-dev-latest (>= 4:4.12),
-               kdelibs5-dev (>= 4:4.11),
-               libattica-dev,
-               libkdeedu-dev (>= 4:4.14),
-               libx11-dev,
-               libxml2-dev,
-               libxrender-dev,
-               libxslt-dev,
-               pkg-config,
-               pkg-kde-tools (>= 0.12)
+               pkg-kde-tools (>= 0.12),
+               kdoctools-dev,
+               libkf5coreaddons-dev,
+               libkf5sonnet-dev,
+               libkf5newstuff-dev,
+               libkf5config-dev,
+               libkf5crash-dev,
+               libkf5i18n-dev,
+               kio-dev,
+               libqt5svg5-dev,
+               qtmultimedia5-dev,
+               libkf5khtml-dev,
+               libkf5kcmutils-dev,
+               kross-dev,
+               libkeduvocdocument-dev,
 Standards-Version: 3.9.5
 XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/kde/kdeedu/parley
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/parley.git
-Vcs-Browser: http://anonscm.debian.org/git/pkg-kde/kde-sc/parley.git
-X-Ubuntu-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/parley
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/parley.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/parley.git/
+X-Ubuntu-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/parley.git/
 X-Ubuntu-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/parley
 
 Package: parley
 Architecture: any
 Depends: kdeedu-kvtml-data,
          parley-data (>= ${source:Version}),
+	 kross,
          ${misc:Depends},
          ${shlibs:Depends}
 Recommends: krosspython, python-kde4
-Suggests: khelpcenter4
+Suggests: khelpcenter
 Description: vocabulary trainer
  Parley is a utility to help train vocabulary when learning a foreign language.
  It is intended as a replacement for flash cards.

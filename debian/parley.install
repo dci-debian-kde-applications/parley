@@ -1,7 +1,2 @@
-parley.xpm /usr/share/pixmaps/
 usr/bin/parley
-usr/lib/kde4/plasma_applet_parley.so
-usr/lib/kde4/plasma_engine_parley.so
-usr/share/applications/kde4/parley.desktop
-usr/share/kde4/services/plasma-dataengine-parley.desktop
-usr/share/kde4/services/plasma_parley.desktop
+usr/share/applications/parley.desktop
