@@ -1,0 +1,2 @@
+parley: binary-without-manpage usr/bin/parley
+parley: menu-icon-missing usr/share/pixmaps/parley.xpm
