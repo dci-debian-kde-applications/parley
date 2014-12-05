@@ -1,4 +1,4 @@
-parley (4:14.11.97-0ubuntu1~ubuntu15.04~ppa3) vivid; urgency=medium
+parley (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
   * New upstream RC release
   * Update build-deps for KF5 and switch to qt-kde-team/3 build scripts
