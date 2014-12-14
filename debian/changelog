@@ -1,3 +1,11 @@
+parley (4:14.11.97-0ubuntu2) UNRELEASED; urgency=medium
+
+  * Cherry pick part of c771075b43cbcb755d681f4aa0cda84018bcaaed as
+    kubuntu_remove_edit-clear_icon.diff so parley-data doesn't conflict
+    with oxygen-icon-theme (LP: #1400903)
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sun, 14 Dec 2014 10:28:35 +0100
+
 parley (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
   * New upstream RC release
