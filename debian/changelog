@@ -1,4 +1,4 @@
-parley (4:14.11.97-0ubuntu2) UNRELEASED; urgency=medium
+parley (4:14.11.97-0ubuntu2) vivid; urgency=medium
 
   * Cherry pick part of c771075b43cbcb755d681f4aa0cda84018bcaaed as
     kubuntu_remove_edit-clear_icon.diff so parley-data doesn't conflict
