@@ -3,17 +3,27 @@ Upstream-Name: parley
 Source: git://anongit.kde.org/parley
 
 Files: *
-Copyright: 2007-2010 Frederik Gladhorn <frederik.gladhorn@kdemail.net>
-           2008 Avgoustinos Kadis <avgoustinos.kadis@kdemail.net>
-           2008 Daniel Laidig <d.laidig@gmx.de>
-           2004-2007 Peter Hedlund <peter.hedlund@kdemail.net>
-           1999-2001 Ewald Arnold <kvoctrain@ewald-arnold.de>
-           2007 Mauricio Piacentini <mauricio@tabuleiro.com>
-           2007 Matt Williams <matt@milliams.com>
-           2010 Benjamin Schleinzer <ben-kde@schleinzer.eu>
-           2005 Aaron Seigo <aseigo@kde.org>
-           2009 Alexander Rieder <alexanderrieder@gmail.com>
-           2011 Jan Gerrit Marker <jangerrit@weiler-marker.com>
+Copyright: 2009, Alexander Rieder <alexanderrieder@gmail.com>
+           2005, Aaron Seigo <aseigo@kde.org>
+           2008, Andrew Lake <jamboarder@yahoo.com>
+           2014, Andreas Xavier
+           2014, Andreas Xavier <andxav@zoho.com>
+           2008, Avgoustinos Kadis <avgoustinos.kadis@kdemail.net>
+           2010, Benjamin Schleinzer <ben-kde@schleinzer.eu>
+           2008-2010, Daniel Laidig <d.laidig@gmx.de>
+           2009-2010, Daniel Laidig <laidig@kde.org>
+           1999-2001, Ewald Arnold <kvoctrain@ewald-arnold.de>
+           2007-2008, Frederik Gladhorn <frederik.gladhorn@kdemail.net>
+           2007-2010, Frederik Gladhorn <gladhorn@kde.org>
+           1989-1991, Free Software Foundation, Inc
+           2014, Inge Wallin
+           2014, Inge Wallin <inge@lysator.liu.se>
+           2011, Jan Gerrit Marker <jangerrit@weiler-marker.com>
+           2008, Javier Goday <jgoday@gmail.com>
+           2007, Matt Williams <matt@milliams.com>
+           2006-2007, Mauricio Piacentini <mauricio@tabuleiro.com>
+           2004-2007, Peter Hedlund <peter.hedlund@kdemail.net>
+           2009, Thomas Eitzenberger <eth@gmx.at>
 License: GPL-2+
 
 Files: doc/*
@@ -27,12 +37,15 @@ Copyright: 2007 Trolltech ASA
 License: GPL-2
 
 Files: plugins/wiktionary/mwclient/*
-Copyright: 2006-2008 Bryan Tong Minh
+Copyright: 2006-2009 Bob Ippolito <bob@redivi.com>
+           2006-2008 Bryan Tong Minh
 License: Expat
 
-Files: plugins/wiktionary/mwclient/simplejson/*
-Copyright: 2006-2009 Bob Ippolito <bob@redivi.com>
-License: Expat
+Files: src/statistics/statisticslegendwidget.cpp
+       src/statistics/statisticslegendwidget.h
+Copyright: 2014, Andreas Xavier <andxav@zoho.com>
+           2014, Inge Wallin
+License: GPL-3+KDEeV
 
 Files: debian/*
 Copyright: 2011 Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
@@ -101,3 +114,23 @@ License: Expat
  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  SOFTWARE.
+
+License: GPL-3+KDEeV
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 3 of
+ the License or any later version accepted by the membership of
+ KDE e.V. (or its successor approved by the membership of KDE
+ e.V.), which shall act as a proxy defined in Section 14 of
+ version 3 of the license.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 3 can be found in "/usr/share/common-licenses/GPL-3".
