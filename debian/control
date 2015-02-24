@@ -22,6 +22,7 @@ Build-Depends: cmake,
                libqt5svg5-dev,
                libxml2-dev,
                libxslt-dev,
+               pkg-config,
                pkg-kde-tools (>= 0.12),
                qtmultimedia5-dev,
                qtscript5-dev
