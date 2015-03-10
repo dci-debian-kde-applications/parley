@@ -20,10 +20,13 @@ Build-Depends: cmake,
                libkf5newstuff-dev,
                libkf5sonnet-dev,
                libqt5svg5-dev,
+               libxml2-dev,
+               libxslt-dev,
+               pkg-config,
                pkg-kde-tools (>= 0.12),
                qtmultimedia5-dev,
                qtscript5-dev
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/kde/kdeedu/parley
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/parley.git

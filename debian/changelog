@@ -1,10 +1,39 @@
-parley (4:14.11.97-0ubuntu1) UNRELEASED; urgency=medium
+parley (4:14.12.3-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 09 Mar 2015 11:35:57 -0700
+
+parley (4:14.12.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+  * Remove unstable from watch file, uscan fails with 
+    remote site does not even have current version
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 09:30:52 -0800
+
+parley (4:14.12.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 18 Dec 2014 15:20:26 +0100
+
+parley (4:14.11.97-0ubuntu2) vivid; urgency=medium
+
+  * Cherry pick part of c771075b43cbcb755d681f4aa0cda84018bcaaed as
+    kubuntu_remove_edit-clear_icon.diff so parley-data doesn't conflict
+    with oxygen-icon-theme (LP: #1400903)
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sun, 14 Dec 2014 10:28:35 +0100
+
+parley (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
   * New upstream RC release
   * Update build-deps for KF5 and switch to qt-kde-team/3 build scripts
   * remove xpm icon generation, it's unused and breaks compile
+  * PPA build
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 01 Dec 2014 18:03:52 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 04 Dec 2014 13:26:12 +0100
 
 parley (4:4.14.2-1) unstable; urgency=medium
 
