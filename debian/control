@@ -21,12 +21,12 @@ Build-Depends: cmake (>= 2.8.12),
                libkf5notifications-dev (>= 4.96.0),
                libkf5sonnet-dev (>= 4.96.0),
                libkf5xmlgui-dev (>= 4.96.0),
-               libqt5svg5-dev,
+               libqt5svg5-dev (>= 5.2~),
                libxml2-dev,
                libxslt-dev,
                pkg-kde-tools (>> 0.15.15),
-               qtmultimedia5-dev,
                qtbase5-dev (>= 5.2.0),
+               qtmultimedia5-dev (>= 5.2~),
                qtscript5-dev
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
