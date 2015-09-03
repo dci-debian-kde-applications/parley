@@ -8,7 +8,7 @@ parley (4:15.08.0-1) unstable; urgency=medium
   [ Scott Kitterman ]
   * Drop unneeded build-depends on qtscript5-dev
 
- -- Scott Kitterman <scott@kitterman.com>  Thu, 03 Sep 2015 17:15:48 -0400
+ -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 03 Sep 2015 17:15:48 -0400
 
 parley (4:14.12.3-1) experimental; urgency=medium
 
