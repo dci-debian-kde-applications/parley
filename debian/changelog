@@ -1,8 +1,8 @@
 parley (4:15.12.1-1ubuntu1) UNRELEASED; urgency=medium
 
-  * Adding command-in-menu-file-and-desktop-file to lintian ignore
   * New upstream release
   * Merged with debian master
+  * Removing parley.menu from packaging
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 14:41:37 +0000
 

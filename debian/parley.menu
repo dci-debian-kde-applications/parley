@@ -1,7 +1,0 @@
-?package(parley):\
-	needs="x11"\
-	section="Applications/Education"\
-	hints="KDE,Education,Trainer"\
-	title="Parley"\
-	icon32x32="/usr/share/pixmaps/parley.xpm"\
-	command="/usr/bin/parley"
