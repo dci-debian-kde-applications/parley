@@ -1,10 +1,11 @@
-parley (4:15.12.3-1~1.gbpc4ca4e) UNRELEASED; urgency=medium
+parley (4:16.04.0-1~1.gbp7b9c7c) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @c4ca4e47a1bd19c52ffa781f6c340d05d9f338a9 **
+  ** SNAPSHOT build @7b9c7ca7b7fa9957cc722add31dcc3b746d1b69e **
 
   * Bump Standards-Version to 3.9.8
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:08:11 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 05:07:18 +0200
 
 parley (4:15.12.1-1) experimental; urgency=medium
 
