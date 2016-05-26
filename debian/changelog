@@ -1,11 +1,15 @@
-parley (4:16.04.0-1~1.gbp7b9c7c) UNRELEASED; urgency=medium
+parley (4:16.04.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @7b9c7ca7b7fa9957cc722add31dcc3b746d1b69e **
-
+  [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 05:07:18 +0200
+  [ Maximiliano Curia ]
+  * Remove menu file and friends
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 26 May 2016 11:07:36 +0200
 
 parley (4:15.12.1-1) experimental; urgency=medium
 
