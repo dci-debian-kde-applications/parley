@@ -39,7 +39,7 @@ Depends: kdeedu-kvtml-data,
          parley-data (>= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Recommends: krosspython, python-kde4
+Recommends: krosspython
 Suggests: khelpcenter
 Description: vocabulary trainer
  Parley is a utility to help train vocabulary when learning a foreign language.
