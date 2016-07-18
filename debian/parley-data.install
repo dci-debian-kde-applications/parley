@@ -1,6 +1,5 @@
 etc/xdg/parley-themes.knsrc
 etc/xdg/parley.knsrc
-usr/share/appdata/org.kde.parley.appdata.xml
 usr/share/config.kcfg/documentsettings.kcfg
 usr/share/config.kcfg/languagesettings.kcfg
 usr/share/config.kcfg/parley.kcfg
@@ -21,4 +20,5 @@ usr/share/icons/oxygen/*/actions/remove-duplicates.*
 usr/share/icons/oxygen/*/actions/set-language.*
 usr/share/icons/oxygen/*/actions/specific-setup.*
 usr/share/kxmlgui5/parley/
+usr/share/metainfo/org.kde.parley.appdata.xml
 usr/share/parley
