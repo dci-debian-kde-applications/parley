@@ -1,16 +1,13 @@
-parley (4:16.08.0-1~1.gbp15ad87) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @15ad876322b55d648d80cb5a285f439ae7c7eee1 **
+parley (4:16.08.0-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
-  ** SNAPSHOT build @f05ed4e7e5a01820776ce52b23f0dc4730465f9d **
-
-  * UNRELEASED
+  * New upstream release (16.08.0)
+  * Bump libkeduvocdocument-dev build dependency version
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 23:07:27 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 19 Oct 2016 12:43:27 +0200
 
 parley (4:16.04.0-1) unstable; urgency=medium
 
