@@ -1,3 +1,11 @@
+parley (4:16.08.0-2~1.gbp02bd0b) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @02bd0b51b4ecd5cbf467686ee0d449d81876ede6 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 19 Oct 2016 13:07:31 +0200
+
 parley (4:16.08.0-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
