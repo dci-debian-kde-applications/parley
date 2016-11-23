@@ -1,11 +1,12 @@
-parley (4:16.08.3-1~1.gbp2b413c) UNRELEASED; urgency=medium
+parley (4:16.08.3-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @2b413cda698de1c953dd97a716eb206fb5897346 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
-  * UNRELEASED
 
- -- Automatic packaging <jenkins@gnuservers.com.ar>  Thu, 10 Nov 2016 23:07:22 +0100
+  [ Maximiliano Curia ]
+  * New upstream release (16.08.3)
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 23 Nov 2016 22:04:31 +0100
 
 parley (4:16.08.0-1) unstable; urgency=medium
 
