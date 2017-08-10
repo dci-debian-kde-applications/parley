@@ -21,4 +21,5 @@ usr/share/icons/oxygen/*/actions/remove-duplicates.*
 usr/share/icons/oxygen/*/actions/set-language.*
 usr/share/icons/oxygen/*/actions/specific-setup.*
 usr/share/kxmlgui5/parley/
+usr/share/locale/
 usr/share/parley

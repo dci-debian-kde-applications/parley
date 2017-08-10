@@ -51,6 +51,8 @@ Description: vocabulary trainer
 Package: parley-data
 Architecture: all
 Depends: ${misc:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: data files for the Parley vocabulary trainer
  This package contains architecture-independent data files for the Parley
  vocabulary trainer.
