@@ -27,7 +27,7 @@ Build-Depends: cmake (>= 3.0.0~),
                pkg-config,
                pkg-kde-tools (>> 0.15.15),
                qtbase5-dev (>= 5.4),
-               qtmultimedia5-dev (>= 5.4)
+               qtmultimedia5-dev (>= 5.4),
 Standards-Version: 4.1.0
 Homepage: https://projects.kde.org/projects/kde/kdeedu/parley
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/parley.git
@@ -39,7 +39,7 @@ Depends: kdeedu-kvtml-data,
          kross,
          parley-data (>= ${source:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Recommends: krosspython
 Suggests: khelpcenter
 Replaces: parley-data (<< 4:17.08.1)
