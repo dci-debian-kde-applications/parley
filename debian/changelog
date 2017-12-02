@@ -1,6 +1,7 @@
-parley (4:17.08.3-0r1) UNRELEASED; urgency=medium
+parley (4:17.08.3-1) unstable; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
+  * Upload to unstable.
   * New upstream release.
   * Adjust l10npkgs_firstversion_ok to the version where kde-l10n will
     drop translations.
@@ -11,7 +12,7 @@ parley (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Remove unused imagemagick build dependency.
   * Update lintian overrides.
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 Dec 2017 09:08:49 +0100
+ -- Pino Toscano <pino@debian.org>  Sat, 02 Dec 2017 09:33:57 +0100
 
 parley (4:17.08.1-1) experimental; urgency=medium
 
