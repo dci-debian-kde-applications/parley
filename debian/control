@@ -27,7 +27,8 @@ Build-Depends: cmake (>= 3.0.0~),
                pkg-config,
                pkg-kde-tools (>> 0.15.15),
                qtbase5-dev (>= 5.4),
-               qtmultimedia5-dev (>= 5.4)
+               qtmultimedia5-dev (>= 5.4),
+               qtwebengine5-dev
 Standards-Version: 3.9.8
 Homepage: https://projects.kde.org/projects/kde/kdeedu/parley
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/parley.git
@@ -42,6 +43,8 @@ Depends: kdeedu-kvtml-data,
          ${shlibs:Depends}
 Recommends: krosspython
 Suggests: khelpcenter
+Replaces: parley-data (<< 4:17.08.1)
+Breaks: parley-data (<< 4:17.08.1)
 Description: vocabulary trainer
  Parley is a utility to help train vocabulary when learning a foreign language.
  It is intended as a replacement for flash cards.

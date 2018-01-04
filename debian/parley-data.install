@@ -1,6 +1,5 @@
 etc/xdg/parley-themes.knsrc
 etc/xdg/parley.knsrc
-usr/share/*/org.kde.parley.appdata.xml
 usr/share/config.kcfg/documentsettings.kcfg
 usr/share/config.kcfg/languagesettings.kcfg
 usr/share/config.kcfg/parley.kcfg
